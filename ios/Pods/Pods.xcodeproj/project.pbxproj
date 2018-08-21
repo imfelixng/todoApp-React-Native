@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34265DB092ED631B08E4F6BB45763696 /* Pods-todoApp-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2356543BF191520167B1BFA3C2396 /* Pods-todoApp-tvOS-dummy.m */; };
+		62E15217ECFB76DB9717A19C4D9A9DD0 /* Pods-todoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4D94317D20E33CBECB43779334A720 /* Pods-todoApp-dummy.m */; };
+		C6C6A93050EB8FCB78DB49A85FC2A513 /* Pods-todoAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D0E73C6AD4AC1B7E1C99A1A6A22AA5 /* Pods-todoAppTests-dummy.m */; };
+		DE5BE889E0DEF2AE4B7666BA009E14B8 /* Pods-todoApp-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C226A22F6197731A0D8BC550637D96C /* Pods-todoApp-tvOSTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0319B6B23CD3473E632F2A8959ED6565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F813D85965D549733B1AF50E283959D4;
+			remoteInfo = "Pods-todoApp";
+		};
+		F729E99C85D339C76A11A68A7BA979CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F215CA9983520569B8AA17877B858364;
+			remoteInfo = "Pods-todoApp-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B4625ECB479023E436859F000114A0 /* Pods-todoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-todoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0C226A22F6197731A0D8BC550637D96C /* Pods-todoApp-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-todoApp-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		22902D19A46604B25F4B7910893BD973 /* Pods-todoApp-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-todoApp-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		22D0E73C6AD4AC1B7E1C99A1A6A22AA5 /* Pods-todoAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-todoAppTests-dummy.m"; sourceTree = "<group>"; };
+		2AF2356543BF191520167B1BFA3C2396 /* Pods-todoApp-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-todoApp-tvOS-dummy.m"; sourceTree = "<group>"; };
+		3E095182FAB6B9C77AD21DE50D37AAC3 /* Pods-todoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-todoApp.release.xcconfig"; sourceTree = "<group>"; };
+		3F06B81DDF772A6B854FF787445F1E6E /* libPods-todoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-todoApp.a"; path = "libPods-todoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		481145D9D85AE0EC381AC08152D76531 /* libPods-todoApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-todoApp-tvOS.a"; path = "libPods-todoApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AAE01A40D4D878548626B1E308F900E /* Pods-todoApp-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-todoApp-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C84E0806074EA2B04735B774360CA70 /* Pods-todoApp-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-todoApp-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		62F43997F2A6B467A1C599AFFFCB4E72 /* Pods-todoAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-todoAppTests-resources.sh"; sourceTree = "<group>"; };
+		644CF205CE8F4681D99E8A74B6FD50D5 /* Pods-todoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-todoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D9963AAF8A415773005E5FE92C11575 /* Pods-todoApp-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-todoApp-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		851111C3598986E7D148DB5474D0C609 /* Pods-todoApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-todoApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		897B452E31AD86F84AE3747086EDFD28 /* Pods-todoAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-todoAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8DAE599D950252AC9FCFE52365F573A5 /* Pods-todoApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-todoApp-frameworks.sh"; sourceTree = "<group>"; };
+		8FAC597355B1527A1ECB0FB78FE1E17F /* Pods-todoApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-todoApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A847195BCC9BF28F7D472BDCEF908F1 /* Pods-todoAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-todoAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		9CC585D5759D8A0987E041A815CCB4D3 /* libPods-todoApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-todoApp-tvOSTests.a"; path = "libPods-todoApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FCBA8EE4DF76BE2F06211691525D7C /* Pods-todoAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-todoAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AFE8A194C4EC33786A4AE6489CED0621 /* Pods-todoApp-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-todoApp-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		BDD2F0574EED1028AAA83C9002996521 /* Pods-todoApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-todoApp-resources.sh"; sourceTree = "<group>"; };
+		C5A7647B8AEF23686A1348831679159C /* Pods-todoApp-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-todoApp-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		CBAC5191C6AEFC3172CEC4FB641C1AC8 /* libPods-todoAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-todoAppTests.a"; path = "libPods-todoAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4D94317D20E33CBECB43779334A720 /* Pods-todoApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-todoApp-dummy.m"; sourceTree = "<group>"; };
+		D7C7C17445847507E9299CC78E648561 /* Pods-todoApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-todoApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DDEB646BCC868E37DA16FCC1D172DF97 /* Pods-todoApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-todoApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E36320B89556010EA0AE1F1F2B59124E /* Pods-todoApp-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-todoApp-tvOS-resources.sh"; sourceTree = "<group>"; };
+		E5DD2F209E93FABA075A7CE65345712D /* Pods-todoApp-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-todoApp-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EFE7DE598D95D4233D8CAC90211388AF /* Pods-todoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-todoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F73E899DC4113FEA22BBFA8C60E4B328 /* Pods-todoApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-todoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD69539077C462E5CEE9132F874C7413 /* Pods-todoApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-todoApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23E7F340E910D16D07846011B88EBB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BE0E01567D6D0F6831F37EAA4F1FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BF1F73B8DB0D3F8164F3D9910551CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24184DB8A92A6FA4BF5B25AA8F3D57D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76DD0D5AAE4B3C2599A2ADBCC1328F27 /* Pods-todoApp-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				7D9963AAF8A415773005E5FE92C11575 /* Pods-todoApp-tvOS-acknowledgements.markdown */,
+				5C84E0806074EA2B04735B774360CA70 /* Pods-todoApp-tvOS-acknowledgements.plist */,
+				2AF2356543BF191520167B1BFA3C2396 /* Pods-todoApp-tvOS-dummy.m */,
+				AFE8A194C4EC33786A4AE6489CED0621 /* Pods-todoApp-tvOS-frameworks.sh */,
+				E36320B89556010EA0AE1F1F2B59124E /* Pods-todoApp-tvOS-resources.sh */,
+				D7C7C17445847507E9299CC78E648561 /* Pods-todoApp-tvOS.debug.xcconfig */,
+				FD69539077C462E5CEE9132F874C7413 /* Pods-todoApp-tvOS.release.xcconfig */,
+			);
+			name = "Pods-todoApp-tvOS";
+			path = "Target Support Files/Pods-todoApp-tvOS";
+			sourceTree = "<group>";
+		};
+		7CF7A7E2CB53E195E959DD5006CF0F4C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E25E6042D267785C9E19F8680EC0AFF1 /* Pods-todoApp */,
+				76DD0D5AAE4B3C2599A2ADBCC1328F27 /* Pods-todoApp-tvOS */,
+				AAEDF2A051F209F90903A8EB16C4D3E2 /* Pods-todoApp-tvOSTests */,
+				B9D058E3F8B00E20919F3981C3DE34DF /* Pods-todoAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				A6E66AC0C65BBDB2BC3274F62F6E9978 /* Products */,
+				7CF7A7E2CB53E195E959DD5006CF0F4C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E66AC0C65BBDB2BC3274F62F6E9978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F06B81DDF772A6B854FF787445F1E6E /* libPods-todoApp.a */,
+				481145D9D85AE0EC381AC08152D76531 /* libPods-todoApp-tvOS.a */,
+				9CC585D5759D8A0987E041A815CCB4D3 /* libPods-todoApp-tvOSTests.a */,
+				CBAC5191C6AEFC3172CEC4FB641C1AC8 /* libPods-todoAppTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAEDF2A051F209F90903A8EB16C4D3E2 /* Pods-todoApp-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5DD2F209E93FABA075A7CE65345712D /* Pods-todoApp-tvOSTests-acknowledgements.markdown */,
+				5AAE01A40D4D878548626B1E308F900E /* Pods-todoApp-tvOSTests-acknowledgements.plist */,
+				0C226A22F6197731A0D8BC550637D96C /* Pods-todoApp-tvOSTests-dummy.m */,
+				22902D19A46604B25F4B7910893BD973 /* Pods-todoApp-tvOSTests-frameworks.sh */,
+				C5A7647B8AEF23686A1348831679159C /* Pods-todoApp-tvOSTests-resources.sh */,
+				DDEB646BCC868E37DA16FCC1D172DF97 /* Pods-todoApp-tvOSTests.debug.xcconfig */,
+				851111C3598986E7D148DB5474D0C609 /* Pods-todoApp-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-todoApp-tvOSTests";
+			path = "Target Support Files/Pods-todoApp-tvOSTests";
+			sourceTree = "<group>";
+		};
+		B9D058E3F8B00E20919F3981C3DE34DF /* Pods-todoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				897B452E31AD86F84AE3747086EDFD28 /* Pods-todoAppTests-acknowledgements.markdown */,
+				A4FCBA8EE4DF76BE2F06211691525D7C /* Pods-todoAppTests-acknowledgements.plist */,
+				22D0E73C6AD4AC1B7E1C99A1A6A22AA5 /* Pods-todoAppTests-dummy.m */,
+				9A847195BCC9BF28F7D472BDCEF908F1 /* Pods-todoAppTests-frameworks.sh */,
+				62F43997F2A6B467A1C599AFFFCB4E72 /* Pods-todoAppTests-resources.sh */,
+				644CF205CE8F4681D99E8A74B6FD50D5 /* Pods-todoAppTests.debug.xcconfig */,
+				EFE7DE598D95D4233D8CAC90211388AF /* Pods-todoAppTests.release.xcconfig */,
+			);
+			name = "Pods-todoAppTests";
+			path = "Target Support Files/Pods-todoAppTests";
+			sourceTree = "<group>";
+		};
+		E25E6042D267785C9E19F8680EC0AFF1 /* Pods-todoApp */ = {
+			isa = PBXGroup;
+			children = (
+				F73E899DC4113FEA22BBFA8C60E4B328 /* Pods-todoApp-acknowledgements.markdown */,
+				8FAC597355B1527A1ECB0FB78FE1E17F /* Pods-todoApp-acknowledgements.plist */,
+				CE4D94317D20E33CBECB43779334A720 /* Pods-todoApp-dummy.m */,
+				8DAE599D950252AC9FCFE52365F573A5 /* Pods-todoApp-frameworks.sh */,
+				BDD2F0574EED1028AAA83C9002996521 /* Pods-todoApp-resources.sh */,
+				03B4625ECB479023E436859F000114A0 /* Pods-todoApp.debug.xcconfig */,
+				3E095182FAB6B9C77AD21DE50D37AAC3 /* Pods-todoApp.release.xcconfig */,
+			);
+			name = "Pods-todoApp";
+			path = "Target Support Files/Pods-todoApp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		211AA42405AB0C62114765CC894E7D8D /* Pods-todoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A31371A466C47EA9B71BD197FEEDEB57 /* Build configuration list for PBXNativeTarget "Pods-todoAppTests" */;
+			buildPhases = (
+				0743B64E550E9F1088A677C5AA6F4BEF /* Sources */,
+				F24184DB8A92A6FA4BF5B25AA8F3D57D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				386961430206C5E63AFAE82E0C7B3790 /* PBXTargetDependency */,
+			);
+			name = "Pods-todoAppTests";
+			productName = "Pods-todoAppTests";
+			productReference = CBAC5191C6AEFC3172CEC4FB641C1AC8 /* libPods-todoAppTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AEE864634955B4D84D92D69C62D263D7 /* Pods-todoApp-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E909F723809EAC07C2B8A2D95447127B /* Build configuration list for PBXNativeTarget "Pods-todoApp-tvOSTests" */;
+			buildPhases = (
+				7AEFEED41CBB095C687BFF472C102FD2 /* Sources */,
+				90BF1F73B8DB0D3F8164F3D9910551CD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CBAF746C7B93BE3F0E96C5092379224 /* PBXTargetDependency */,
+			);
+			name = "Pods-todoApp-tvOSTests";
+			productName = "Pods-todoApp-tvOSTests";
+			productReference = 9CC585D5759D8A0987E041A815CCB4D3 /* libPods-todoApp-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F215CA9983520569B8AA17877B858364 /* Pods-todoApp-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2001701D83B785C9D694B45003AAD0 /* Build configuration list for PBXNativeTarget "Pods-todoApp-tvOS" */;
+			buildPhases = (
+				30324DF2D2CDB400584E336CD0D90D17 /* Sources */,
+				60BE0E01567D6D0F6831F37EAA4F1FD1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-todoApp-tvOS";
+			productName = "Pods-todoApp-tvOS";
+			productReference = 481145D9D85AE0EC381AC08152D76531 /* libPods-todoApp-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F813D85965D549733B1AF50E283959D4 /* Pods-todoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FE1C482A71724A4170B38A4E7D012D /* Build configuration list for PBXNativeTarget "Pods-todoApp" */;
+			buildPhases = (
+				796DDFF4CD63323E58DE204A3CECD783 /* Sources */,
+				23E7F340E910D16D07846011B88EBB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-todoApp";
+			productName = "Pods-todoApp";
+			productReference = 3F06B81DDF772A6B854FF787445F1E6E /* libPods-todoApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A6E66AC0C65BBDB2BC3274F62F6E9978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F813D85965D549733B1AF50E283959D4 /* Pods-todoApp */,
+				F215CA9983520569B8AA17877B858364 /* Pods-todoApp-tvOS */,
+				AEE864634955B4D84D92D69C62D263D7 /* Pods-todoApp-tvOSTests */,
+				211AA42405AB0C62114765CC894E7D8D /* Pods-todoAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0743B64E550E9F1088A677C5AA6F4BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C6A93050EB8FCB78DB49A85FC2A513 /* Pods-todoAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30324DF2D2CDB400584E336CD0D90D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34265DB092ED631B08E4F6BB45763696 /* Pods-todoApp-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796DDFF4CD63323E58DE204A3CECD783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E15217ECFB76DB9717A19C4D9A9DD0 /* Pods-todoApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AEFEED41CBB095C687BFF472C102FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5BE889E0DEF2AE4B7666BA009E14B8 /* Pods-todoApp-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CBAF746C7B93BE3F0E96C5092379224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-todoApp-tvOS";
+			target = F215CA9983520569B8AA17877B858364 /* Pods-todoApp-tvOS */;
+			targetProxy = F729E99C85D339C76A11A68A7BA979CB /* PBXContainerItemProxy */;
+		};
+		386961430206C5E63AFAE82E0C7B3790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-todoApp";
+			target = F813D85965D549733B1AF50E283959D4 /* Pods-todoApp */;
+			targetProxy = 0319B6B23CD3473E632F2A8959ED6565 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08CDCC524164A336E7580C6D7768F8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B4625ECB479023E436859F000114A0 /* Pods-todoApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		737A032360562998A5B57115A1590E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDEB646BCC868E37DA16FCC1D172DF97 /* Pods-todoApp-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		772DF6109E1C932E83FAD61A569B93E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD69539077C462E5CEE9132F874C7413 /* Pods-todoApp-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D0628DFC05C2DC937FF862B413CF091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C7C17445847507E9299CC78E648561 /* Pods-todoApp-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90466FC3C0EAB9B40F8AF607EA4A5A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E095182FAB6B9C77AD21DE50D37AAC3 /* Pods-todoApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C504B67A1BCCB9EB2E71D8F00A475CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851111C3598986E7D148DB5474D0C609 /* Pods-todoApp-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C75E412F2EBD38F0777A3E318FA7D288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE7DE598D95D4233D8CAC90211388AF /* Pods-todoAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB8655B4960A496B6473B2A489E1609C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644CF205CE8F4681D99E8A74B6FD50D5 /* Pods-todoAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C2001701D83B785C9D694B45003AAD0 /* Build configuration list for PBXNativeTarget "Pods-todoApp-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0628DFC05C2DC937FF862B413CF091 /* Debug */,
+				772DF6109E1C932E83FAD61A569B93E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FE1C482A71724A4170B38A4E7D012D /* Build configuration list for PBXNativeTarget "Pods-todoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08CDCC524164A336E7580C6D7768F8E4 /* Debug */,
+				90466FC3C0EAB9B40F8AF607EA4A5A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A31371A466C47EA9B71BD197FEEDEB57 /* Build configuration list for PBXNativeTarget "Pods-todoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8655B4960A496B6473B2A489E1609C /* Debug */,
+				C75E412F2EBD38F0777A3E318FA7D288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E909F723809EAC07C2B8A2D95447127B /* Build configuration list for PBXNativeTarget "Pods-todoApp-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737A032360562998A5B57115A1590E08 /* Debug */,
+				C504B67A1BCCB9EB2E71D8F00A475CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
